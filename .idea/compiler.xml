@@ -2,20 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for Quiz-Padham" enabled="true">
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for quizpadham" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
-        <module name="Quiz-Padham" />
+        <module name="quizpadham" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Quiz-Padham" options="-parameters" />
+      <module name="quizpadham" options="-parameters" />
     </option>
   </component>
 </project>

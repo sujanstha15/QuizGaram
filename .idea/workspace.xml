@@ -4,55 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02b78500-a151-403d-b6ed-b2a4cfdb752a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="8d70557d-808f-466c-b675-0e5f09fbd0f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/config/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/dto/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/dto/LoginRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/dto/RegisterRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/QuizPadhamApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/src/test/java/com/quizpadham/QuizPadhamApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/src/main/java/com/quizpadham/QuizPadhamApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/src/test/java/com/quizpadham/QuizPadhamApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
-  <component name="ProjectId" id="3285yhG2doT7VZsN4Nwoy7kXgMA" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="32JBrg0gLTxiuVhoyzc8KzwicPF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.QuizPadhamApplication.executor": "Run",
-    "Application.iQuizPadhamApplication.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/raju4/OneDrive/Desktop/QuizGaram"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.QuizpadhamApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/raju4/OneDrive/Desktop/QuizGaram&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="02b78500-a151-403d-b6ed-b2a4cfdb752a" name="Changes" comment="" />
-      <created>1756789615178</created>
+      <changelist id="8d70557d-808f-466c-b675-0e5f09fbd0f5" name="Changes" comment="" />
+      <created>1757128996606</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1756789615178</updated>
+      <updated>1757128996606</updated>
     </task>
     <servers />
   </component>
