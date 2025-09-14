@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d70557d-808f-466c-b675-0e5f09fbd0f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/config/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/dto/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/dto/LoginRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/dto/RegisterRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/entity/QuizAttempt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/repository/QuizAttemptRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/src/main/java/com/quizpadham/QuizPadhamApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz Padham/Quiz-Padham/src/test/java/com/quizpadham/QuizPadhamApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quizpadham/quizpadham/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/config/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/config/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/java/com/quizpadham/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/quizpadham/quizpadham/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,6 +51,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="QuizpadhamApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quizpadham.QuizpadhamApplication" />
+      <module name="quizpadham" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quizpadham.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuizpadhamApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8d70557d-808f-466c-b675-0e5f09fbd0f5" name="Changes" comment="" />
